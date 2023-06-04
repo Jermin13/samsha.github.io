@@ -1,63 +1,230 @@
-/* Estilos para el encabezado */
-header {
-    background-color:#C147E9;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  header h1 {
-    margin: 0;
-    
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 1;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 1em;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    border-bottom: 2px solid #810CA8;
-  }
-  
-  /* Estilos para el contenido principal */
-  main {
-    margin: 2em auto;
-    max-width: 800px;
-    font-family: 'Lato', sans-serif;
-  }
+/* Estilos CSS con paleta de colores morados */
 
-  article {
-    margin-bottom: 2em;
-  }
-  
-  article h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  article p {
-    line-height: 1.5;
-  }
-  
-  /* Estilos para el pie de página */
-  footer {
-    font-family: 'Lato', sans-serif;
-    background-color: #C147E9;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #8e44ad;
+}
+
+header {
+  padding: px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #8e44ad;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+h2 {
+  color: #8e44ad;
+}
+
+h3 {
+  color: #bdc3c7;
+}
+
+p {
+  color: #333;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+    /* Estilos adicionales para hacer el HTML más llamativo */
+    
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #8e44ad;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #FFC1FA;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #bdc3c7;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    article {
+      margin-bottom: 30px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #8e44ad;
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    h3 {
+      color: #bdc3c7;
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #8e44ad;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /**/
+    .minimalista {
+
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+    
+    .minimalista header {
+
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .minimalista h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    .minimalista nav {
+      margin-top: 20px;
+    }
+    
+    .minimalista nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .minimalista nav ul li {
+      display: inline;
+    }
+    
+    .minimalista nav ul li a {
+      display: inline-block;
+      padding: 10px;
+      text-decoration: none;
+
+    }
+    
+    .minimalista nav ul li a:hover {
+      background-color: #FFC1FA;
+    }
+    
+    .minimalista main {
+      padding: 20px;
+    }
+    
+    .minimalista article {
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .minimalista h2 {
+      font-size: 20px;
+      margin-top: 0;
+    }
+    
+    .minimalista p {
+      line-height: 1.5;
+    }
+    
+    .minimalista footer {
+      padding: 20px;
+      text-align: center;
+    }
+    
+
+    /* Estilos para las imágenes */
+img {
+  display: block; /* Para asegurar que las imágenes se muestren como bloques independientes */
+  margin: 0 auto; /* Centrar horizontalmente las imágenes */
+  max-width: 100%; /* Asegurar que las imágenes no excedan su contenedor */
+  height: auto; /* Mantener la proporción de aspecto de las imágenes */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+img:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
